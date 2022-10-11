@@ -20,6 +20,8 @@
 
 ```
   git pull https://github.com/Douglasbm040/jogo_da_memoria.git
+  ou
+  git pull
 ```  
 <br>
 <li>Para empurrar sua alteraces (commit) : </li><br>
@@ -36,6 +38,8 @@ empurre para todos :
 
 ```
   git push origin <nome da branch>
+  ou 
+  git push
 ```
 
 <ol>
