@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+    <script src=""></script>
     <meta charset="UTF-8">
+    <script src="DOM.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pink Blinders</title>
@@ -10,25 +12,25 @@
    
 </head>
 
-<body>
+<body onload="exibir()">
     <div id="main-container">
         <div class="container-1">
-            <div class="card-style"align="center"><img src="https://img.icons8.com/color/2x/javascript.png"></div>
-            <div class="card-style"align="center"><img src="https://img.icons8.com/office/2x/react.png"></div>
-            <div class="card-style"align="center"><img src="https://img.icons8.com/color/2x/python.png"></div>
-            <div class="card-style"align="center"><img src="https://img.icons8.com/fluency/2x/flutter.png"></div>
-            <div class="card-style"align="center"><img src="https://img.icons8.com/fluency/2x/ruby-gemstone.png"></div>
+            <div id="card-1" class="card-style"align="center" onclick="jogada()"><img src="https://img.icons8.com/color/2x/javascript.png"></div>
+            <div class="card-style"align="center" onclick="jogada()"><img src="https://img.icons8.com/office/2x/react.png"></div>
+            <div class="card-style"align="center" onclick="jogada()"><img src="https://img.icons8.com/color/2x/python.png"></div>
+            <div class="card-style"align="center" onclick="jogada()"><img src="https://img.icons8.com/fluency/2x/flutter.png"></div>
+            <div class="card-style"align="center" onclick="jogada()"><img src="https://img.icons8.com/fluency/2x/ruby-gemstone.png"></div>
         </div>
         <br>
         <div class="container-2">
-            <div class="card-style"align="center"></div>
-            <div class="card-style"align="center"></div>
-            <div class="card-style"align="center"></div>
-            <div class="card-style"align="center"></div>
-            <div class="card-style"align="center"></div>
+            <div class="card-style"align="center"onClick="jogada()"><img src=""></div>
+            <div class="card-style"align="center"onClick="jogada()"><img src=""></div>
+            <div class="card-style"align="center"onClick="jogada()"><img src=""></div>
+            <div class="card-style"align="center"onClick="jogada()"><img src=""></div>
+            <div class="card-style"align="center"onClick="jogada()"><img src=""></div>
         </div>
         <br>
-        <div align="center"><button>New game</button></div>
+        <div align="center"><button onClick="exibir()">Game</button></div>
         
     </div>
     

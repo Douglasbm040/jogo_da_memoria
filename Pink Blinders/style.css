@@ -4,7 +4,23 @@
     width: 200px;
     height: 300px;
     border-radius: 15px;
+    
 }
+.card-style:hover{
+    animation-name: animated-card;
+    animation-duration: 5s;
+}
+
+@keyframes animated-card {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(180deg);
+        
+    
+    }
+  }
+
+
+
 body{
     background-color: red;
 }
