@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #162029;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*MENU DE SOCIALMEDIAS*/
+
+.social{
+  width: 5%;
+  height: 742px;
+  background-color: #223343;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 3px;
+  text-align: center;
+  float: left;
+}
+
+.menuH{
+  position: relative;
+  top: 100px;
+}
+
+.socialC img{
+  margin-top: 15px;
+  max-width: 20px;
+}
+
+.social h3{
+  transform: rotate( 270deg);
+  color: #fff;
+  font-size: 12px;
+}
+
+.divisor{
+  margin: 30px 0px 30px 3px;
+  background-color: #fff;
+  width: 90%;
+  height: 4px;
+  background: linear-gradient(to right,transparent ,#fff, transparent);
+}
+
+.email{
+  margin-top: 135px;
+}
+
+.email img{
+  margin-top: 50px;
+  max-width: 15px;
+}
+
+.tel{
+  margin-top: 70px;
+}
+
+.tel img{
+  margin-top: 50px;
+  max-width: 20px;
+}
+
+/*MENU NAVEGAÇÂO*/
+
+.nav{
+  background-color: transparent;
+  width: 90%;
+  height: 70px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav img{
+  max-width: 90px;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+ul{
+  list-style: none;
+  margin-top: 25px;
+}
+
+li{
+  display: inline;
+}
+
+ion-icon{
+  width: 10px;
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pes img{
+  width: 20px;
+  margin-top: 22px;
+}
+
+.pesq{
+  position: relative;
+  left: 50px;
+}
+
+/*INFORMAÇÕES DO JOGO*/
+
+.name{
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 90%;
+}
+
+.name h1{
+  color: #fff;
+}
+
+.name p{
+  color: #364049;
+}
+
+.name span{
+  background-color: #364049;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  color: #162029;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/*PÁGINA DO JOGO*/
+
+.container{
+  background-color: #394a59;
+  width: 92%;
+  height: 520px;
+  float: left;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.details{
+  background-color: #242e37;
+  width: 250px;
+  height: 450px;
+  border-radius: 10px;
+  margin-top: 36px;
+  margin-left: 30px;
+  color: #fff;
+  text-align: justify;
+  padding: 20px;
+  float: left;
+}
+
+.elements h2{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.elements p{
+  margin-top: 10px;
+}
+
+.pp{
+  margin-left: 10px;
+}
+
+
+/*JOGO*/
+
+
+.game{
+  width: 700px;
+  height: 450px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box{
+  background-image: url("imagens/CardB.png");
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/*FUNCIONALIDADES DO JOGO*/
+
+.func{
+  float: left;
+  width: 200px;
+  height: 480px;
+  margin-left: 70px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.func img{
+  margin-top: 20px;
+}
+
+.func h3{
+  color: #fff;
+  margin-top: 20px;
+}
+
+.func1{
+  position: relative;
+  top: 40px;
+}
+
+.func .box{
+  margin-left: 30px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 2;
+}
+
+.boxS1{
+  background-color: rgb(70, 71, 71);
+  position: absolute;
+  top: 558px;
+  left: 1277px;
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.boxS2{
+  background-color: rgb(82, 81, 81);
+  position: absolute;
+  top: 564px;
+  left: 1282px;
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  z-index: 0;
+}
