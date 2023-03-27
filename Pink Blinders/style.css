@@ -1,6 +1,9 @@
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .card-style {
-    height: 100px;
+    height: 10%;
+  }
+  body {
+    background-color: blueviolet;
   }
 }
 
